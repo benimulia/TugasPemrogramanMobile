@@ -34,9 +34,21 @@ public class MainActivity extends AppCompatActivity {
         Button helpBtn = (Button)findViewById(R.id.helpButton);
         helpBtn.setOnClickListener(helpButtonListener);
 
+        Button testBtn = (Button)findViewById(R.id.btnTest);
+        testBtn.setOnClickListener(testButtonListener);
+
+        Button relativeBtn = (Button)findViewById(R.id.btnRelative);
+        relativeBtn.setOnClickListener(relativeButtonListener);
+
+        Button proteinBtn = (Button)findViewById(R.id.btnProtein);
+        proteinBtn.setOnClickListener(proteinButtonListener);
+
         if(savedInstanceState != null){
             Log.d("ProteinTracker", savedInstanceState.getString("abc"));
         }
+
+        Button layoutBtn = (Button)findViewById(R.id.btnLayout);
+        layoutBtn.setOnClickListener(layoutButtonListener);
     }
     /*private View.OnClickListener helpButtonListener = new View.OnClickListener(){
         @Override
@@ -71,6 +83,37 @@ public class MainActivity extends AppCompatActivity {
             b.putString("helpString",myEditText.getText().toString());
             intent.putExtras(b);
 
+            startActivity(intent);
+        }
+    };
+
+    private View.OnClickListener layoutButtonListener = new View.OnClickListener(){
+        @Override
+        public void onClick(View view){
+            Intent intent = new Intent(MainActivity.this,Main2Activity.class);
+            startActivity(intent);
+        }
+    };
+
+    private View.OnClickListener testButtonListener = new View.OnClickListener(){
+        @Override
+        public void onClick(View view){
+            Intent intent = new Intent(MainActivity.this,TestActivity.class);
+            startActivity(intent);
+        }
+    };
+    private View.OnClickListener relativeButtonListener = new View.OnClickListener(){
+        @Override
+        public void onClick(View view){
+            Intent intent = new Intent(MainActivity.this,RelativeActivity.class);
+            startActivity(intent);
+        }
+    };
+
+    private View.OnClickListener proteinButtonListener = new View.OnClickListener(){
+        @Override
+        public void onClick(View view){
+            Intent intent = new Intent(MainActivity.this,ProteinTracker.class);
             startActivity(intent);
         }
     };
