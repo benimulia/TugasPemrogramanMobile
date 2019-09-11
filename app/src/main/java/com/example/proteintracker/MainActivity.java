@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
         Button proteinBtn = (Button)findViewById(R.id.btnProtein);
         proteinBtn.setOnClickListener(proteinButtonListener);
 
+        Button fragmentBtn = (Button)findViewById(R.id.btnFragment);
+        fragmentBtn.setOnClickListener(fragmentButtonListener);
+
         if(savedInstanceState != null){
             Log.d("ProteinTracker", savedInstanceState.getString("abc"));
         }
@@ -114,6 +117,14 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view){
             Intent intent = new Intent(MainActivity.this,ProteinTracker.class);
+            startActivity(intent);
+        }
+    };
+
+    private View.OnClickListener fragmentButtonListener = new View.OnClickListener(){
+        @Override
+        public void onClick(View view){
+            Intent intent = new Intent(MainActivity.this,Main3FragmentActivity.class);
             startActivity(intent);
         }
     };
