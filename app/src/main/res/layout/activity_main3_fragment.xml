@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtHello" />
 
     <FrameLayout
-        android:id="@+id/frameMain"
+        android:id="@+id/mhsFrame"
         android:layout_width="300dp"
         android:layout_height="483dp"
         android:layout_marginStart="8dp"
