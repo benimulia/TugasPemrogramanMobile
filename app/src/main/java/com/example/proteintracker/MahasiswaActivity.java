@@ -14,7 +14,7 @@ public class MahasiswaActivity extends AppCompatActivity
         setContentView(R.layout.activity_mahasiswa);
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        Mahasiswa1Fragment mhs = Mahasiswa1Fragment.newInstance("Hai", "");
+        Mahasiswa1Fragment mhs = Mahasiswa1Fragment.newInstance("Hai","");
         ft.replace(R.id.mhsFrame, mhs);
         ft.commit();
     }
