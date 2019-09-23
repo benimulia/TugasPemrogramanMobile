@@ -37,4 +37,6 @@
     <string name="no_telepon">No. Telepon</string>
     <string name="simpan">Simpan</string>
     <string name="list">List</string>
+    <string name="kelola_data_mahasiswa">Kelola Data Mahasiswa</string>
+    <string name="button">Button</string>
 </resources>

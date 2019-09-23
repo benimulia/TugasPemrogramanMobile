@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".MahasiswaEditActivity"></activity>
+        <activity android:name=".MahasiswaAddActivity" />
+        <activity android:name=".KelolaDataMhs1Activity" />
+        <activity android:name=".ListActivity" />
         <activity android:name=".MahasiswaActivity" />
         <activity android:name=".Main3FragmentActivity" />
         <activity android:name=".ProteinTracker" />

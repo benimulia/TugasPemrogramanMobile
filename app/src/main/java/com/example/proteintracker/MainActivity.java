@@ -52,6 +52,11 @@ public class MainActivity extends AppCompatActivity {
         Button listBtn = (Button)findViewById(R.id.btnList);
         listBtn.setOnClickListener(listButtonListener);
 
+        Button kelolaBtn = (Button)findViewById(R.id.btnKelolaMhs);
+        kelolaBtn.setOnClickListener(kelolaMhsButtonListener);
+
+
+
         if(savedInstanceState != null){
             Log.d("ProteinTracker", savedInstanceState.getString("abc"));
         }
@@ -149,5 +154,15 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     };
+
+    private View.OnClickListener kelolaMhsButtonListener = new View.OnClickListener(){
+        @Override
+        public void onClick(View view){
+            Intent intent = new Intent(MainActivity.this,KelolaDataMhs1Activity.class);
+            startActivity(intent);
+        }
+    };
+
+
 
 }
