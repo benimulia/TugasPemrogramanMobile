@@ -35,11 +35,11 @@ public class RecyclerViewMhhsActivity extends AppCompatActivity {
 
     private void tambahData(){
         mahasiswaKuArrayList = new ArrayList<>();
-        mahasiswaKuArrayList.add(new MahasiswaKu("Michael Gerardi Adjie","72170100", "-", "-", "-",R.drawable.michael));
-        mahasiswaKuArrayList.add(new MahasiswaKu("Nikolaus Aryawan R W","72170115", "-", "-", "-",R.drawable.ary));
-        mahasiswaKuArrayList.add(new MahasiswaKu("Monica Carista","72170133", "Menjadi lebih berguna bagi keluarga", "Main game", "Don't Judge",R.drawable.monica));
-        mahasiswaKuArrayList.add(new MahasiswaKu("Valeriana Tanesha","72170143", "Bahagia", "Baca Novel", "Pantang Mundur",R.drawable.val));
-        mahasiswaKuArrayList.add(new MahasiswaKu("Grace Hutabarat","72170171", "Good Leader", "Tidur", "Be Your Self",R.drawable.grace));
-        mahasiswaKuArrayList.add(new MahasiswaKu("Beni Mulia Tabarus","72170177", "Membanggakan Ortu", "Basket, Musik, Game", "Just Do It",R.drawable.foto));
+        mahasiswaKuArrayList.add(new MahasiswaKu("Michael Gerardi Adjie","72170100", "Business Man", "Basket", "Jangan menyerah",R.drawable.michael,"Laki-laki"));
+        mahasiswaKuArrayList.add(new MahasiswaKu("Nikolaus Aryawan R W","72170115", "Membanggakan dan membahagiakan ortu", "Barongsai", "Terus berproses meski itu berat",R.drawable.ary,"Laki-laki"));
+        mahasiswaKuArrayList.add(new MahasiswaKu("Monica Carista","72170133", "Menjadi lebih berguna bagi keluarga", "Main game", "Don't Judge",R.drawable.monica,"Perempuan"));
+        mahasiswaKuArrayList.add(new MahasiswaKu("Valeriana Tanesha","72170143", "Bahagia", "Baca Novel", "Pantang Mundur",R.drawable.val, "Perempuan"));
+        mahasiswaKuArrayList.add(new MahasiswaKu("Grace Hutabarat","72170171", "Good Leader", "Tidur", "Be Your Self",R.drawable.grace, "Perempuan"));
+        mahasiswaKuArrayList.add(new MahasiswaKu("Beni Mulia Tabarus","72170177", "Membanggakan Ortu", "Basket, Musik, Game", "Just Do It",R.drawable.foto,"Laki-laki"));
     }
 }

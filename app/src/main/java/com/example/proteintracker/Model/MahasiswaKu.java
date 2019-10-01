@@ -5,18 +5,20 @@ public class MahasiswaKu {
 
     private String namaku;
     private String nimku;
+    private String gender;
     private String cita;
     private String hobi;
     private String motohidup;
     private int foto;
 
-    public MahasiswaKu(String namaku, String nimku, String cita, String hobi, String motohidup, int foto) {
+    public MahasiswaKu(String namaku, String nimku, String cita, String hobi, String motohidup, int foto, String gender) {
         this.namaku = namaku;
         this.nimku = nimku;
         this.cita = cita;
         this.hobi = hobi;
         this.motohidup = motohidup;
         this.foto = foto;
+        this.gender = gender;
     }
 
 
@@ -69,5 +71,13 @@ public class MahasiswaKu {
         this.foto = foto;
     }
 
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 
 }

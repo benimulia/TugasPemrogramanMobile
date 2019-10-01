@@ -76,7 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="40dp"
         android:text="@string/layout"
         app:layout_constraintStart_toEndOf="@+id/helpButton"
         app:layout_constraintTop_toBottomOf="@+id/editText1" />
@@ -115,23 +115,34 @@
         android:id="@+id/btnList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="28dp"
         android:text="@string/list"
-        app:layout_constraintStart_toEndOf="@+id/btnProtein"
+        app:layout_constraintStart_toEndOf="@+id/btnTest"
         app:layout_constraintTop_toBottomOf="@+id/btnRelative" />
 
     <Button
         android:id="@+id/btnKelolaMhs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
         android:text="@string/kelola_data_mahasiswa"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btnFragment"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/btnProtein"
         app:layout_constraintTop_toBottomOf="@+id/btnList" />
+
+    <Button
+        android:id="@+id/btnCardViewMhs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/cardview"
+        app:layout_constraintStart_toEndOf="@+id/btnFragment"
+        app:layout_constraintTop_toBottomOf="@+id/btnKelolaMhs" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

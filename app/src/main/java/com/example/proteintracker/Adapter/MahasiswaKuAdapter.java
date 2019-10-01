@@ -38,6 +38,7 @@ public class MahasiswaKuAdapter extends RecyclerView.Adapter<MahasiswaKuAdapter.
         holder.txtMotoHidup.setText(mahasiswaKuArrayList.get(position).getMotohidup());
         holder.txtHobi.setText(mahasiswaKuArrayList.get(position).getHobi());
         holder.imgFoto.setImageResource(mahasiswaKuArrayList.get(position).getFoto());
+        holder.txtGender.setText(mahasiswaKuArrayList.get(position).getGender());
     }
 
     @Override
@@ -46,7 +47,7 @@ public class MahasiswaKuAdapter extends RecyclerView.Adapter<MahasiswaKuAdapter.
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{ //utk menghubungkan dari txt
-        private TextView txtNamaku, txtCita, txtNimku, txtHobi, txtMotoHidup;
+        private TextView txtNamaku, txtCita, txtGender, txtNimku, txtHobi, txtMotoHidup;
         private ImageView imgFoto;
 
         public ViewHolder(View view){
@@ -57,6 +58,7 @@ public class MahasiswaKuAdapter extends RecyclerView.Adapter<MahasiswaKuAdapter.
             txtHobi = view.findViewById(R.id.txtHobiMhsKu);
             txtMotoHidup = view.findViewById(R.id.txtMotoMhsKu);
             imgFoto = view.findViewById(R.id.imageViewMhsKu);
+            txtGender = view.findViewById(R.id.txtGender);
         }
     }
 }
