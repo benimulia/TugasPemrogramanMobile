@@ -9,7 +9,6 @@
     <string name="protetintracker">ProtetinTracker</string>
     <string name="textview">TextView</string>
     <string name="test">Test</string>
-    <string name="fragment">Fragment</string>
     <string name="activity">Activity</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -36,8 +35,14 @@
     <string name="alamat">Alamat</string>
     <string name="no_telepon">No. Telepon</string>
     <string name="simpan">Simpan</string>
-    <string name="list">List</string>
     <string name="kelola_data_mahasiswa">Kelola Data Mahasiswa</string>
     <string name="button">Button</string>
     <string name="cardview">CardView</string>
+    <string name="menu_pertama">Menu Pertama</string>
+    <string name="menu_kedua">Menu Kedua</string>
+    <string name="menu_ketiga">Menu Ketiga</string>
+    <string name="fragment">Fragment</string>
+    <string name="list">List</string>
+    <string name="protein_tracker">Protein Tracker</string>
+    <string name="beni_mulia_tabarus_72170177">Beni Mulia Tabarus_72170177</string>
 </resources>

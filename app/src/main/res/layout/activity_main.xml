@@ -145,4 +145,14 @@
         app:layout_constraintStart_toEndOf="@+id/btnFragment"
         app:layout_constraintTop_toBottomOf="@+id/btnKelolaMhs" />
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/beni_mulia_tabarus_72170177"
+        app:layout_constraintStart_toEndOf="@+id/btnFragmenMhs"
+        app:layout_constraintTop_toBottomOf="@+id/btnCardViewMhs" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
