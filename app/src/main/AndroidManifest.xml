@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CobaMenuActivity"></activity>
-        <activity android:name=".RecyclerViewMhhsActivity"></activity>
+        <activity
+            android:name=".SettingProteinTracker"
+            android:label="@string/title_activity_setting_protein_tracker"></activity>
+        <activity android:name=".CobaMenuActivity" />
+        <activity android:name=".RecyclerViewMhhsActivity" />
         <activity android:name=".RecycleViewActivity" />
         <activity android:name=".MahasiswaEditActivity" />
         <activity android:name=".MahasiswaAddActivity" />
@@ -23,11 +26,13 @@
         <activity android:name=".TestActivity" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".HelpActivity" />
-        <activity android:name=".MainActivity"><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
